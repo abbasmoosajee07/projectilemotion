@@ -1,0 +1,18 @@
+Guide to the Projectile Motion Plotter by Ababs Moosajee
+
+Question 1 of Portfolio 1 is answered in P1_Q1fun.m which uses the Euler's model,
+to plot projectile motion. The Euler's model is saved in a seperate function file called
+Eulersfunction.m.
+
+Question 2 of Portfolio is answered in P1_Q2fun.m, where both function files 
+EulersFunction.m and RungeKutta.m are called upon to compare and evaluate the two methods.
+
+Question 3a is answered in the file P1_Q3a.m, where the bouncing particle is simulated
+
+Question 3b is answered in P1_Q3bfun.m where drag on multiple particles is simulated
+through various fluids, by calling upon the function file ProjectileDrag.m
+
+Lastly, a combined script is created called RealisticProjectileMotion.m, which combines 
+drag, impact and simple projectile motion into one single script allowing 
+user to select various variables like Fluids, Particles, Gravity and even combos such as
+Bouncing Ball with Drag.
